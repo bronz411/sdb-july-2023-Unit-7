@@ -1,0 +1,42 @@
+export const jobs = [
+  {
+    id: "818ed85d-8c6c-4776-ab23-44ebf6975b43",
+    dateApplied: "2023-08-09",
+    companyName: "Google Inc",
+    jobTitle: "Senior Dev",
+    contact: "Brad Miller",
+    status: "rejected",
+  },
+  {
+    id: "818ed85d-8c6c-4776-ab23-44ebf6975b454",
+    dateApplied: "2023-08-09",
+    companyName: "TESLA",
+    jobTitle: "Senior Dev",
+    contact: "Elon Musk",
+    status: "interviewed",
+  },
+  {
+    id: "c988985d-3f52-44a2-bfb2-121ab4d2cf34",
+    dateApplied: "2023-08-09",
+    companyName: "Mc Donalds",
+    jobTitle: "Head Cook",
+    contact: "Ronald",
+    status: "rejected",
+  },
+  {
+    id: "f2b76226-9683-44e7-96b8-42adea1ec8ea",
+    dateApplied: "2023-08-21",
+    companyName: "Upright Education",
+    jobTitle: "Rob's Job",
+    contact: "Mary",
+    status: "applied",
+  },
+  {
+    id: "771ce00a-a52c-48b7-86cf-bc5b9656ff64",
+    dateApplied: "2023-08-21",
+    companyName: "WeKnowCode",
+    jobTitle: "Junior Dev",
+    contact: "Nate Clemons",
+    status: "applied",
+  },
+];
