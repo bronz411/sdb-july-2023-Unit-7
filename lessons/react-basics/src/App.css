@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+.flexDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 40px;
+}
+
+.nameDiv {
+  border: solid 2px black;
+  font-weight: bold;
+}
+
+.cardWrapperDiv {
+  border: solid 2px lightseagreen;
+  border-radius: 10%;
+  background-image: linear-gradient(lightgrey, black);
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(71, 70, 180);
+  gap: 20px;
+  padding: 15px;
+}
+
+.textboxDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textContentDiv:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp4777120.jpg");
+}
+
+.headerDiv {
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 100px;
+  padding: 50px;
+}
+
+.imputButtonsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  background-color: #282c34;
+  padding: 15px;
+}
+
+.imgDiv:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

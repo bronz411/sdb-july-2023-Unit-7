@@ -8,7 +8,7 @@ const AboutMe = () => {
         },
         restaurantList: {
             listStyleType: "none",
-            textAlign: "left",
+            textAlign: "center",
         },
     }
     return ( <>

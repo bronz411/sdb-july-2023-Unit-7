@@ -1,6 +1,8 @@
 ## usefull snippets
 
-sfc
+`sfc` - creates a stateless functional component (boilerplate for individual )
+`imrs` - Imports react and useState
+`usf` - creates a usestate hook
 
 ## Installing React
 
