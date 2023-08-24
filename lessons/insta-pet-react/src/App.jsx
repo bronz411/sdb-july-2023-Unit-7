@@ -5,6 +5,7 @@ import "./App.css";
 import MainHeader from "./components/header-section/MainHeader";
 import NavigationBar from "./components/navigation-section/NavigationBar";
 import Auth from "./components/auth";
+import MainIndex from "./components/pet-section/MainIndex";
 
 function App() {
   const [token, setToken] = useState("");
@@ -25,7 +26,7 @@ function App() {
     <div>
       <MainHeader />
       <NavigationBar />
-      <Auth updateToken={updateToken} />
+      {token ? <MainIndex token={token} /> : <Auth updateToken={updateToken} />}
     </div>
   );
 }
