@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import Login from "./Login-section/Login";
 import SignUp from "./signup-section/signUp";
 

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import logo from "./logo.svg";
 import "./App.css";
 import MainHeader from "./components/header-section/MainHeader";
 import NavigationBar from "./components/navigation-section/NavigationBar";
