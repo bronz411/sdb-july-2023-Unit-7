@@ -4,11 +4,9 @@ import { API_CREATE_POST } from "../../constants/endpoints";
 import PetButton from "../custom/PetButton";
 
 const PetCreate = (props) => {
-  const [title, setTitle] = useState("Awesome Pet");
-  const [description, setDescription] = useState("Trying to Win your Heart!");
-  const [imageURL, setImageURL] = useState(
-    "https://static.vecteezy.com/system/resources/thumbnails/017/323/715/small/3d-render-adorable-close-up-of-a-american-eskimo-dog-holding-red-rose-in-mouth-on-white-background-photo.jpg"
-  );
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  const [imageURL, setImageURL] = useState("");
 
   async function handleSubmit(e) {
     e.preventDefault();
