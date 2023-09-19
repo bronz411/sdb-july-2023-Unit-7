@@ -30,9 +30,6 @@ const PetCard = (props) => {
         <img alt="Sample" src={imageURL} />
         <CardBody>
           <CardTitle tag="h5">{title}</CardTitle>
-          {/* <CardSubtitle className="mb-2 text-muted" tag="h6">
-            {title}
-          </CardSubtitle> */}
           <CardText>{description}</CardText>
         </CardBody>
         <div className="d-flex justify-content-end">
